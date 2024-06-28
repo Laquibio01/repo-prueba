@@ -12,6 +12,9 @@ public class General {
     this.tamaño = tamaño;
     }
     
+    public static void main(String[] args) {
+        System.out.println("kjjlkjdsa");
+    }
     
     public void escribir(){
         System.out.println(tipo+" escribe de forma increible por su punta de "+punta);
