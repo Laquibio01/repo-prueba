@@ -14,7 +14,7 @@ public class General {
     
     
     public void escribir(){
-        System.out.println(tipo+" escribe de forma increible por su punta de "+punta);
+        System.out.println(tipo+" escribe de forma increible por su punta de ");
     }
     public void pintar(){
         System.out.println(tipo+"Escribe de forma increible por su color " +color);
