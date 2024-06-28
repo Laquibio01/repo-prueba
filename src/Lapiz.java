@@ -5,5 +5,7 @@ public class Lapiz {
         gen.dibujar();
         gen.escribir();
         gen.sub();
+        
+        System.out.println("S");
     }
 }
