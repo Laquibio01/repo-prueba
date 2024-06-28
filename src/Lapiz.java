@@ -3,7 +3,6 @@ public class Lapiz {
         General gen = new General();
         gen.datos("Carbon", "Negro", "madera", "Lapiz", 1);
         gen.dibujar();
-        gen.escribir();
         gen.sub();
         
         System.out.println("S");
