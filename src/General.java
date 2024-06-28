@@ -13,9 +13,7 @@ public class General {
     }
     
     
-    public void escribir(){
-        System.out.println("Prueba para la rama de prueba");
-    }
+    
     public void pintar(){
         System.out.println(tipo+"Escribe de forma increible por su color " +color);
     }
