@@ -14,7 +14,7 @@ public class General {
     
     
     public void escribir(){
-        System.out.println("A");
+        System.out.println("Prueba de otra rama");
     }
     public void pintar(){
         System.out.println(tipo+"Escribe de forma increible por su color " +color);
