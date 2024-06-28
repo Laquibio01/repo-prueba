@@ -1,17 +1,18 @@
 public class General {
     
     String punta, color, material, tipo;
-    int tamaño;
+    int tamaño, propiedad;
     
     public void datos(String punta, String color, String material, 
-                      String tipo, int tamaño){
+                      String tipo, int tamaño, int propiedad){
     this.punta = punta;
     this.color = color;
     this.material = material;
     this.tipo = "El "+tipo;
     this.tamaño = tamaño;
+    this.propiedad = propiedad;
     }
-    
+        
     
     public void escribir(){
         System.out.println("Prueba para la rama de prueba");
@@ -27,6 +28,9 @@ public class General {
     }
     public void borrar(){
         System.out.println(tipo+"");
+    }
+    public void material(){
+        System.out.println("Las propiedades del material son: " + propiedad);
     }
     
 }
